@@ -46,26 +46,24 @@ namespace HW_lessons5
             /*Задача 5.8
 В банк на двадцати процентный вклад положили М гривен.
 Начисления происходят раз в год и добавляются к сумме вклада.
-Какой станет сумма вклада через N лет.
-*/
-            /*
-                        double P = 0.2;
+Какой станет сумма вклада через N лет.*/
+/*
+            double P = 0.2;
 
-                        Console.Write("How much money do you want to deposit? ");
-                        int M = int.Parse(Console.ReadLine());
+            Console.Write("How much money do you want to deposit? ");
+            double M = double.Parse(Console.ReadLine());
 
-                        Console.Write("For how many years? ");
-                        int Y = int.Parse(Console.ReadLine());
+            Console.Write("For how many years? ");
+            double Y = double.Parse(Console.ReadLine());
+                
 
-                        double MYP ;
-
-                        for (int i = 1; i <= Y; i++)
-                        {
-
-                            MYP = M + (M * P * i);
-                            Console.WriteLine("In {0} year(s) you will have: {1}", i, MYP);
-                        }
-            */
+            for (int i = 1; i <= Y; i++)
+            {
+                M = M + (M * P);
+                
+                Console.WriteLine("In {0} year(s) you will have: {1}", i, M);
+             }
+  */          
 
             /* Задача 5.9
 Даны натуральные числа от 1 до 50.
